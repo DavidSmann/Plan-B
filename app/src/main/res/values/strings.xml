@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Plan_B_Exercise</string>
+    <string name="home">Home</string>
+    <string name="coupon">Coupon</string>
+    <string name="favorite">Favorite</string>
+    <string name="me">Me</string>
+</resources>

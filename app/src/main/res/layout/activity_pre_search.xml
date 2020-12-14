@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activities.PreSearchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="52dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:onClick="onBackPreSearch"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="start|center"
+                android:src="@drawable/ic_keyboard_arrow_left_black_24dp"/>
+            <EditText
+                android:imeOptions="actionSearch"
+                android:id="@+id/searchBox"
+                android:layout_width="320dp"
+                android:layout_height="37dp"
+                android:inputType="text"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:drawableStart="@drawable/ic_search_black_24dp"
+                android:layout_gravity="center"
+                android:hint="Search Restaurant"
+                android:textSize="14dp"
+                android:background="@drawable/border_radius_small"/>
+
+            <ImageView
+                android:id="@+id/clearSearch"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="60dp"
+                android:layout_gravity="end|center"
+                android:src="@drawable/cross"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="end|center"
+                android:src="@drawable/ic_map_black_24dp"/>
+
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

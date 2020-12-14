@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="102dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+
+            android:layout_height="100dp">
+            <RelativeLayout
+                android:gravity="center|center_horizontal|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:foregroundGravity="center"
+                    android:padding="5dp"
+                    android:id="@+id/searchImage"
+                    android:layout_gravity="left"
+                    android:layout_width="125dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/resturant"/>
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_toRightOf="@+id/searchImage"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coffee"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_toRightOf="@+id/title"
+                    android:layout_marginLeft="150dp"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/border_radius_small"
+                    android:layout_height="wrap_content"
+                    android:text=" 3.4km "
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:id="@+id/star"
+                    android:layout_below="@+id/title"
+                    android:layout_toRightOf="@+id/searchImage"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_star_black_24dp"/>
+                <ImageView
+                    android:id="@+id/star1"
+                    android:layout_below="@+id/title"
+                    android:layout_toRightOf="@+id/searchImage"
+                    android:layout_marginLeft="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_star_black_24dp"/>
+                <ImageView
+                    android:id="@+id/star2"
+                    android:layout_below="@+id/title"
+                    android:layout_toRightOf="@+id/searchImage"
+                    android:layout_marginLeft="45dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_star_black_24dp"/>
+                <ImageView
+                    android:id="@+id/star3"
+                    android:layout_below="@+id/title"
+                    android:layout_toRightOf="@+id/searchImage"
+                    android:layout_marginLeft="65dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_star_black_24dp"/>
+                <ImageView
+                    android:id="@+id/star4"
+                    android:layout_below="@+id/title"
+                    android:layout_toRightOf="@+id/searchImage"
+                    android:layout_marginLeft="85dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_star_half_black_24dp"/>
+                <TextView
+                    android:id="@+id/starAvg"
+                    android:layout_below="@+id/title"
+                    android:layout_toRightOf="@+id/searchImage"
+                    android:layout_marginLeft="115dp"
+                    android:textSize="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.5"/>
+                <TextView
+                    android:id="@+id/line"
+                    android:layout_below="@+id/title"
+                    android:layout_toRightOf="@+id/searchImage"
+                    android:layout_marginLeft="145dp"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="|"/>
+
+                <ImageView
+                    android:id="@+id/eyeIc"
+                    android:layout_below="@+id/title"
+                    android:layout_toRightOf="@+id/searchImage"
+                    android:layout_marginLeft="155dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_remove_red_eye_grey_24dp"/>
+
+                <TextView
+                    android:id="@+id/viewer"
+                    android:layout_below="@+id/title"
+                    android:layout_toRightOf="@+id/searchImage"
+                    android:layout_marginLeft="185dp"
+                    android:textSize="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30 Views"/>
+
+                <TextView
+                    android:id="@+id/rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6 Rating   |    10 Reviews"
+                    android:layout_below="@+id/star"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/searchImage"/>
+
+                <ImageView
+                    android:id="@+id/foodtypeic"
+                    android:layout_width="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_height="12dp"
+                    android:layout_below="@+id/rating"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/searchImage"
+                    android:src="@drawable/ic_restaurant_black_24dp"/>
+                <TextView
+                    android:id="@+id/foodtype"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rating"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/searchImage"
+                    android:text="Khmer  |"
+                    />
+
+                <ImageView
+                    android:id="@+id/foodtypeic2"
+                    android:layout_width="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_height="12dp"
+                    android:layout_below="@+id/rating"
+                    android:layout_marginLeft="80dp"
+                    android:layout_toRightOf="@+id/searchImage"
+                    android:src="@drawable/ic_location_on_black_24dp"/>
+                <TextView
+                    android:id="@+id/foodLoc"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rating"
+                    android:layout_marginLeft="95dp"
+                    android:layout_toRightOf="@+id/searchImage"
+                    android:text="Phnom Penh"
+                    />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rating"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/foodLoc"
+                    android:text="Closed Now"
+                    android:textSize="16dp"
+                    />
+
+
+
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
